@@ -1,0 +1,105 @@
+body{
+    font-size: 12px;
+    color: #4f5f6f;
+    height: 99%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    display: block;
+    box-sizing: border-box;
+    */
+}
+
+header {
+    background: #0067b1;
+    position: static;
+    width: 100%;
+    z-index: 9999;
+}
+
+.OpcionesPantalla{
+    display: flex;
+}
+
+.opcionesMenu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 240);
+    margin: 70px 10px 250px 100px;
+    padding: 15px 20px 25px 30px;
+    height: 500px;
+    width: 500px;
+}
+
+.iconoInicio{
+    position: relative;
+    top: 7px;
+    padding-left: 16px;
+    font-size: 20px;
+}
+
+.menu{
+    padding: 6px;
+    font-size: 15px;
+    font-family: "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}   
+
+.TituloMenu{
+    color: black ;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}   
+
+
+.opcionesMenu2{
+    display: flex;
+    flex-direction: column;
+    /*background-color: rgb(245, 245, 240);*/
+    margin: 70px 10px 15px 10px;
+    padding: 15px 20px 25px 30px;
+    height: 1500px;
+    width: 1500px;
+}
+
+.mensaje{
+    font-size: 20px;
+    flex-direction: column;
+    color: black;
+    margin-top: 300px;
+    font-family: "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}   
+
+.mensaje1{
+    font-size: 15px;
+    flex-direction: column;
+    color: rgb(119, 111, 111);
+    font-family: "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}   
+
+.botonIngreso{
+    background-color: rgb(245, 245, 240);
+    flex-direction: column;
+    margin-top: 30px;
+    /*padding-inline-start: 150px;*/
+    /*padding-inline: 150px;*/
+    padding: 25px 10px 10px 100px;
+    height: 100px;
+    width: 550px;
+    font-size: 18px;
+}   
+
+.botonIngreso1{
+    background-color: rgb(245, 245, 240);
+    /*flex-direction: column;*/
+    margin-top: 30px;
+    margin-left: 650px;
+    /*padding-inline-start: 150px;*/
+    /*padding-inline: 150px;*/
+    padding: 25px 10px 10px 100px;
+    height: 100px;
+    width: 550px;
+    font-size: 18px;
+}   
+
