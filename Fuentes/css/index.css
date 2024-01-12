@@ -1,6 +1,7 @@
 body{
     font-size: 12px;
-    color: #4f5f6f;
+    /*color: #4f5f6f;*/
+    background-color: rgb(245, 245, 240);
     height: 99%;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-weight: 400;
@@ -18,19 +19,11 @@ header {
     z-index: 9999;
 }
 
+
 .OpcionesPantalla{
     display: flex;
 }
 
-.opcionesMenu{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(245, 245, 240);
-    margin: 70px 10px 250px 100px;
-    padding: 15px 20px 25px 30px;
-    height: 500px;
-    width: 500px;
-}
 
 .iconoInicio{
     position: relative;
@@ -52,54 +45,84 @@ header {
     font-family: "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }   
 
+.opcionesMenu{
+    /*background-color: rgb(83, 223, 223);*/
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 250);
+    margin: 70px 10px 250px 100px;
+    padding: 15px 20px 25px 30px;
+    height: 700px;
+    width: 400px;
+}
+
 
 .opcionesMenu2{
     display: flex;
     flex-direction: column;
-    /*background-color: rgb(245, 245, 240);*/
-    margin: 70px 10px 15px 10px;
+    background-color: rgb(255, 255, 250);
+    margin: 400px 1px 1px 10px;
     padding: 15px 20px 25px 30px;
-    height: 1500px;
-    width: 1500px;
+    height: 700px;
+    width: 550px;
 }
 
 .mensaje{
-    font-size: 20px;
+    font-size: 25px;
     flex-direction: column;
-    color: black;
-    margin-top: 300px;
     font-family: "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }   
 
 .mensaje1{
     font-size: 15px;
     flex-direction: column;
+    font-family: "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     color: rgb(119, 111, 111);
     font-family: "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    width: 750px;
 }   
 
 .botonIngreso{
-    background-color: rgb(245, 245, 240);
+    background-color: cadetblue;
     flex-direction: column;
-    margin-top: 30px;
-    /*padding-inline-start: 150px;*/
-    /*padding-inline: 150px;*/
+    margin: 10px 1px 1px 10px;
     padding: 25px 10px 10px 100px;
     height: 100px;
-    width: 550px;
+    width: 450px;
     font-size: 18px;
 }   
+
+.opcionesMenu3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 250);
+    margin: 400px 1px 1px 10px;
+    padding: 15px 20px 25px 30px;
+    height: 700px;
+    width: 550px;
+}
+
 
 .botonIngreso1{
-    background-color: rgb(245, 245, 240);
-    /*flex-direction: column;*/
-    margin-top: 30px;
-    margin-left: 650px;
-    /*padding-inline-start: 150px;*/
-    /*padding-inline: 150px;*/
+    background-color: cadetblue;
+    flex-direction: column;
+    margin: 10px 1px 1px 10px;
     padding: 25px 10px 10px 100px;
     height: 100px;
-    width: 550px;
+    width: 450px;
     font-size: 18px;
 }   
 
+
+
+/*
+.botonIngreso1{
+    background-color: aqua;
+    flex-direction: column;
+    margin: 70px 1px 1px 10px;
+    padding: 25px 10px 10px 100px;
+    height: 100px;
+    width: 450px;
+    font-size: 18px;
+}   
+*/
