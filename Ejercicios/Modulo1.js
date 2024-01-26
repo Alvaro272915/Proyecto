@@ -26,6 +26,7 @@ console.log('Litros en Centilitros : ' + resultado) ;
 
 
 
+
 //Realizar el algoritmo que realice las 4 operaciones básicas para dos números de entrada.
 let operador1 = parseInt(prompt("Ingrese el Primero Operador")) ;
 let operador2 = parseInt(prompt("Ingrese el Segundo Operador")) ;
@@ -42,4 +43,16 @@ console.log('Operación Resta : ' + resultado) ;
 // Resta
 resultado = operador1 / operador2
 console.log('Operación Dicisión : ' + resultado) ;
+
+
+//Realizar el algoritmo que convierta grados centígrados en Fahrenheit y viceversa.
+let centigrados = 0 ;
+let fahrenheit = 32 ;
+
+resultado = (centigrados * 9/5 ) + 32 ;
+console.log('Centigrados a Fahrenheit : ' + resultado) ;
+
+resultado = (fahrenheit - 32) * 5/9 ;
+console.log('Fahrenheit a Centigrados : ' + resultado) ;
+
 
