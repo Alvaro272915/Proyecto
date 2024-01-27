@@ -19,7 +19,6 @@ header {
     z-index: 9999;
 }
 
-
 footer{
     background: rgb(218, 211, 211);
     height: 400px;
@@ -72,6 +71,17 @@ footer{
     width: 550px;
 }
 
+
+.imgInicio{
+    margin: 10px 1px 1px 50px;
+    padding: 15px 20px 25px 30px;
+    display: flex;
+    height: 400px;
+    width: 20px;
+}
+
+
+
 .tablasPaginas{
     background: #0067b1;
     display: flex;
@@ -107,8 +117,6 @@ tr:nth-child(even){
 tr:hover{
     background-color: #aaa;
 } 
-
-
 
 .mensaje{
     font-size: 25px;
@@ -234,3 +242,45 @@ span:hover {
  section:hover {
     background: rgb(255, 255, 250) ;
 }   
+
+
+/* ESTILOS PARA FORMULARIO*/
+
+form{
+    position: absolute;
+    top: 100px ;
+    left: 35%;
+    width: 30%;
+    text-align: center;
+    background: white ;
+    border-radius: 15px;
+}   
+
+form>img{
+    width: 80%;
+    padding-bottom: 30px;
+    margin-top: 15%;
+}   
+
+form>input{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border-color: blue;
+    font-size: 15px;
+}   
+
+form>input:focus{
+    outline: none;
+}   
+
+form>button{
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 20px;
+    border-color: beige;
+}   
+
+
