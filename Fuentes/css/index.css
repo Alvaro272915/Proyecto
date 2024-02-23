@@ -244,6 +244,13 @@ span:hover {
 }   
 
 
+.mensajeconstruccion{
+    /*background-color: aqua;*/
+    font-family: "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: blue;
+}
+
+
 /* ESTILOS PARA FORMULARIO*/
 
 form{
@@ -283,4 +290,11 @@ form>button{
     border-color: beige;
 }   
 
+.error , .IngresoExitoso {
+    display: none;
+}
 
+.mostrarMensaje {
+    color: red;
+    display: block;
+}

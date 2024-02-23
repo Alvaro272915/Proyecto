@@ -21,8 +21,6 @@ class validarUsuario{
 class GestionUsuarios {
     constructor(){
         this.usuarios = []
-        /*this.contrasena = []*/
-        /*this.email*/
     }
     agregarUsuario(nombre,contrasena,email){
         const nuevoUsuario = new validarUsuario(nombre,contrasena,email);
