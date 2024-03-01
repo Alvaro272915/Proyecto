@@ -1,22 +1,30 @@
-class login{
+class Login{
     constructor(){
         this.usuarios = [
             {
                 username: "a",
-                password: "1"
+                password: "1",
+                nombreusuario: "Prueba de Usuario"
             },
             {
                 username: "Alvaro",
-                password: "Cami272915++"
+                password: "Cami272915++",
+                nombreusuario: "ALVARO URREGO VIANA"
             }
         ]
     }
 
     autenticacion(usuariodig , contrasenadig) {
-        return this.usuarios.some (info => info.username === usuariodig && info.password === contrasenadig) ;
+
+        if (this.usuarios.some (info => info.username === usuariodig && info.password === contrasenadig)){
+            let elemntoencontrado = this.usuarios.find (info => info.username === usuariodig && info.password === contrasenadig)
+            const nombreusuario = localStorage.setItem("nombreusuario", elemntoencontrado.nombreusuario)
+            return true
+        }else{
+            return false
+        }
     }        
 }
-
 class ValidacionFormulario{
     constructor(formulario){
         this.formulario = formulario ;
@@ -93,7 +101,7 @@ function enviosformulario(event){
     
     const usuario = document.getElementById ("usuario").value ;
     const contrasena = document.getElementById("pass").value ;
-    const validacionlogin = new login () ;
+    const validacionlogin = new Login () ;
 
     if(validacionCampos.ValidaFormulario()){
         if (validacionlogin.autenticacion(usuario,contrasena)) {
